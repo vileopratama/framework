@@ -1,0 +1,45 @@
+{
+    "name": "wp/framework",
+    "description": "The Working Paper Framework.",
+    "keywords": ["framework", "wp"],
+    "license": "MIT",
+    "homepage": "https://vileo.co.id",
+    "authors": [
+        {
+            "name": "Suhendar",
+            "email": "suhendar@vileo.co.id"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "replace": {
+        
+    },
+    "require-dev": {
+       
+    },
+    "autoload": {
+        "psr-4": {
+            "WP\\": "src/Working-Paper/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WP\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "5.4-dev"
+        }
+    },
+    "suggest": {
+        
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
